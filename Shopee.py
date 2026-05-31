@@ -571,7 +571,7 @@ class Shopee:
                 
                 element_text = element.get_text(strip=True)  # Extract and clean element text
                 
-                if "Produto International objeto de declaração de importação" in element_text:
+                if "produto internacional objeto de declaração de importação" in element_text.lower():  # Case-insensitive match to tolerate capitalisation differences in the page
                     verbose_output(  # Log international detection
                         f"{BackgroundColors.YELLOW}Product is INTERNATIONAL (import declaration found){Style.RESET_ALL}"
                     )  # End of verbose output call
