@@ -709,8 +709,6 @@ Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) for detailed 
    - Push changes: `git push origin feature/YourFeatureName`
    - Open a Pull Request with detailed description
 
-4. **Stay Engaged**: Respond to feedback and make necessary adjustments
-
 ## Collaborators
 
 We thank the following people who contributed to this project:
